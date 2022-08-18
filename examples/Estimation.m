@@ -12,8 +12,11 @@ clear
 close all
 clc
 
-load('../data/Seizure_1.mat');  % change this path to load alternative data
-addpath(genpath('../src/'));
+%load('../data/Seizure_1.mat');  % change this path to load alternative data
+%addpath(genpath('../src/'));
+load('Seizure_1.mat');  % change this path to load alternative data
+addpath(genpath('src/'));
+
 
 input = 300;
 input_offset = [];
